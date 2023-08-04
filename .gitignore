@@ -6,7 +6,8 @@ generate/pix2pix-tensorflow/
 __pycache__/
 *.pyc
 
-data
+data/*
+!data/create_dataset.py
 *.out
 
 segment/deeplabv3/train.log
